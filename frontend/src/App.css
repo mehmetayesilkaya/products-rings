@@ -1,0 +1,58 @@
+#root {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.slick-list {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding-bottom: 30px !important;
+
+}
+.slick-slide {
+  padding: 0 50px; /* slaytlar arasında 24px boşluk */
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.product-card {
+  padding: 20px;
+  margin: 0 12px;
+  box-sizing: border-box;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
