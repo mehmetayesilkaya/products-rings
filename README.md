@@ -6,20 +6,22 @@ Frontend: Ürünleri bir carousel içinde gösterir, renk seçici, yıldız skor
 
 ## 📦 Proje Yapısı
 
-├── product-api # Backend (Express veya benzeri)
-│ ├── src/
-│ │ └── data/products.json
-│ │ └── routes/products.ts
-│ ├── index.ts
-│ └── package.json
-└── frontend # Frontend (Vite + React)
-├── public/
-│ └── index.html
-├── src/
-│ ├── App.jsx
-│ └── ProductCarousel.jsx
-├── package.json
-└── vite.config.js
+├── product-api       # Backend (Express veya benzeri)
+│   ├── src
+│   │   ├── data
+│   │   │   └── products.json
+│   │   └── routes
+│   │       └── products.ts
+│   ├── index.ts
+│   └── package.json
+└── frontend          # Frontend (Vite + React)
+    ├── public
+    │   └── index.html
+    ├── src
+    │   ├── App.jsx
+    │   └── ProductCarousel.jsx
+    ├── package.json
+    └── vite.config.js
 
 ---
 
