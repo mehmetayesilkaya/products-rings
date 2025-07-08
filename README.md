@@ -49,4 +49,10 @@ npm run dev
 
 Tarayıcıda http://localhost:5173 adresini aç. Ürünler backend’den çekilip sayfada listelenecek.
 
+## 🚀 Ekran Görüntüleri
+
+![Görünüm-1](assets/images/ss1.png)
+![Görünüm-2](assets/images/ss2.png)
+![Görünüm-3](assets/images/ss3.png)
+
 
