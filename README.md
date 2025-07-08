@@ -6,7 +6,7 @@ Frontend: Ürünleri bir carousel içinde gösterir, renk seçici, yıldız skor
 
 ## 📦 Proje Yapısı
 
-├── product-api       # Backend (Express veya benzeri)
+├── product-api       # Backend 
 │   ├── src
 │   │   ├── data
 │   │   │   └── products.json
@@ -14,7 +14,7 @@ Frontend: Ürünleri bir carousel içinde gösterir, renk seçici, yıldız skor
 │   │       └── products.ts
 │   ├── index.ts
 │   └── package.json
-└── frontend          # Frontend (Vite + React)
+└── frontend          # Frontend 
     ├── public
     │   └── index.html
     ├── src
