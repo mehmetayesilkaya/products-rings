@@ -12,7 +12,7 @@ function PrevArrow({ className, style, onClick }) {
             style={{
                 ...style,
                 position: 'absolute',
-                top: '50%',
+                top: 100,
                 left: -30,
                 transform: 'translate(-50%, -50%)',
                 zIndex: 1,
@@ -33,7 +33,7 @@ function NextArrow({ className, style, onClick }) {
             style={{
                 ...style,
                 position: 'absolute',
-                top: '50%',
+                top: 100,
                 right: -30,
                 transform: 'translate(50%, -50%)',
                 zIndex: 1,
