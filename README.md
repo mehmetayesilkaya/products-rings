@@ -5,24 +5,22 @@ Backend: Ürün verisini products.json dosyasından okur.
 Frontend: Ürünleri bir carousel içinde gösterir, renk seçici, yıldız skoru, fiyat formatlama gibi özellikler içerir.
 
 ## 📦 Proje Yapısı
-
-├── product-api       # Backend 
-│   ├── src
-│   │   ├── data
-│   │   │   └── products.json
-│   │   └── routes
-│   │       └── products.ts
-│   ├── index.ts
-│   └── package.json
-└── frontend          # Frontend 
-    ├── public
-    │   └── index.html
-    ├── src
-    │   ├── App.jsx
-    │   └── ProductCarousel.jsx
-    ├── package.json
-    └── vite.config.js
-
+├── product-api # Backend (Express veya benzeri)
+│ ├── src
+│ │ ├── data
+│ │ │ └── products.json
+│ │ └── routes
+│ │ └── products.ts
+│ ├── index.ts
+│ └── package.json
+└── frontend # Frontend (Vite + React)
+├── public
+│ └── index.html
+├── src
+│ ├── App.jsx
+│ └── ProductCarousel.jsx
+├── package.json
+└── vite.config.js
 ---
 
 ## 🚀 Kurulum ve Çalıştırma
